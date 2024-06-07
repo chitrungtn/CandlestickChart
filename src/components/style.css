@@ -1,0 +1,22 @@
+
+.date {
+  background: #333;
+  display: flex;
+  justify-content: end;
+}
+
+.inputDate {
+  background-color: #333; 
+  color: #fff; 
+  border: 1px solid #fff; 
+  border-radius: 5px;
+  margin: 12px 12px 0 0;
+  padding: 8px;
+  cursor: pointer;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+  
+
