@@ -63,9 +63,6 @@ const CandlestickChart = () => {
       height: 350,
       background: '#333', 
       foreColor: '#fff',
-      toolbar: {
-        show: false
-      }  
     },
     title: {
       align: 'left',
