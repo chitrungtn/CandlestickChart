@@ -9,7 +9,7 @@ const CandlestickChart = () => {
   const [maxDate, setMaxDate] = useState('');
 
   useEffect(() => {
-    fetch('/VFS_historical_data_StockScan.csv')
+    fetch('/CandlestickChart/VFS_historical_data_StockScan.csv')
       .then(response => response.text())
       .then(text => {
         Papa.parse(text, {
